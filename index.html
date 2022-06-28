@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <meta charset="UTF-8" />
+    <link href="src/styles.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <form id="search-form">
+        <input type="search" id="city" placeholder="Enter a city" />
+        <input type="submit" value="Search" class="btn btn-primary" />
+        <button class="temperatureGeo" id="geoTemp">Current</button>
+      </form>
+
+      <h5>
+        Haarlem
+      </h5>
+      <ul>
+        <li id="date"></li>
+        <li id="description"></li>
+      </ul>
+      <h1>
+        <span id="currentTemperature"></span>
+        <span class="temperature" id="celcii">°C </span>
+      </h1>
+      <div class="row-1">
+        <div class="col-12">
+          <span id="humidity_title">
+            Humidity:
+            <span id="humidity"></span>
+            %
+          </span>
+        </div>
+        <div class="col-12">
+          <span id="wind_title">
+            Wind:
+            <span id="wind"></span>
+            km/h
+          </span>
+        </div>
+      </div>
+      <br />
+      <div class="row">
+        <div class="col-2">
+          Mon 30
+        </div>
+        <div class="col-3">
+          13°/8° 🌧
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-2">
+          Tue 31
+        </div>
+        <div class="col">
+          17°/10° 🌧
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-2">
+          Wed 01
+        </div>
+        <div class="col">
+          16°/10° 🌧
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-2">
+          Thu 02
+        </div>
+        <div class="col">
+          16°/10° 🌥
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-2">
+          Fri 03
+        </div>
+        <div class="col">
+          20°/12° 🌥
+        </div>
+      </div>
+      <script src="src/index.js"></script>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,36 @@
+form {
+    padding: 20px;
+  }
+  h1{
+    color: blue;
+  }
+  .row-1 {
+    margin-left: 200px;
+    margin-top: -55px;
+  }
+  
+  .temperature {
+    font-size: 12px;
+    font-weight: bold;
+    position: relative;
+    top: -23px;
+  }
+  
+  .temperatureGeo {
+    position: relative;
+    top: 2px;
+    color: #fff;
+    background-color: rgb(227, 58, 25);
+    border-color: rgb(227, 58, 25);
+    margin: 20px;
+    padding: 5px 10px 5px;
+    border-radius: 3px;
+  }
+  
+  li {
+    list-style-type: none;
+  }
+  ul {
+    padding-left: 0px;
+  }
+  
